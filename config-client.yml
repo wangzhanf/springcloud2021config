@@ -12,7 +12,8 @@ spring:
 
 eureka:
   client:
-    defaultZone: http://localhost:7001/eureka
+    service-url: 
+      defaultZone: http://localhost:7001/eureka
 
 
 ---
@@ -25,4 +26,5 @@ spring:
 
 eureka:
   client:
-    defaultZone: http://localhost:7001/eureka
+    service-url: 
+      defaultZone: http://localhost:7001/eureka
